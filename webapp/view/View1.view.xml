@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.btp.helloworldui5.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+    <content><Label text="Welcome to my site!" width="100%" id="label0"/>
+        <Button xmlns="sap.m" text="Send my data" id="button0" press=".onPress"/>
+    </content>
+    </Page>
+</mvc:View>
